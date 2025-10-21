@@ -10,6 +10,7 @@ export default function Welcome({ navigation }: { navigation: any }) {
     if (Name.length === 0) {
       alert("Please enter your name")
     } else {
+      alert("Welcome Back Chef " + Name)
       navigation.navigate("Menu", { Namesend: Name })
     }
   }
@@ -27,7 +28,7 @@ export default function Welcome({ navigation }: { navigation: any }) {
           autoCapitalize="characters"
         />
 
-        <Text style={{ fontSize: 20 }}>Ready To Change The Menu</Text>
+        <Text style={{ fontSize: 20 }}>Ready To Change The Menu?</Text>
         <Button title='Enter' color="#000000ff" onPress={handle} />
 
 

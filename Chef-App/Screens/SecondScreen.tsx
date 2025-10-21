@@ -9,7 +9,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 export default function Menu({ navigation, route }: { navigation: any, route: any }) {
     const [selectedValue, SetselectedValue] = useState('')
-    const ChefName = route.params.Namesend
     const count = {}
     const Starter = ['samosa:R9', 'spring_rolls:R30', 'bruschetta:R40', 'stuffed_mushrooms:R20', 'deviled_eggs:R30']
     const Drinks = ['coke:R15', 'orange_juice:R20', 'water:R5', 'lemonade:R25']
@@ -20,7 +19,7 @@ export default function Menu({ navigation, route }: { navigation: any, route: an
             style={{ flex: 1 }}
         >
             <View style={styles.body}>
-                <Text style={{ fontSize: 20, borderColor: 'black', borderWidth: 1, borderRadius: 5, marginTop: 100, alignContent: 'center', justifyContent: 'center', textAlign: 'center' }}>Welcome {ChefName}</Text>
+                <Text style={{ fontSize: 20, borderColor: 'black', borderWidth: 1, borderRadius: 5, marginTop: 100, alignContent: 'center', justifyContent: 'center', textAlign: 'center' }}>Restaurant</Text>
                 <Text style={{ fontSize: 20, textAlign: 'center' }}>Current Menu</Text>
                 <Picker
                     selectedValue={selectedValue}
