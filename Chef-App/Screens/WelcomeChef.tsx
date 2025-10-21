@@ -7,7 +7,11 @@ import { LinearGradient } from 'expo-linear-gradient';
 export default function Welcome({ navigation }: { navigation: any }) {
   const [Name, setName] = useState('')
   const handle = () => {
-
+    if (Name.length === 0) {
+      alert("Please enter your name")
+    } else {
+      navigation.navigate("Menu", { Namesend: Name })
+    }
   }
   return (
     <LinearGradient colors={['#12D936', '#CBFF83']}
@@ -24,9 +28,7 @@ export default function Welcome({ navigation }: { navigation: any }) {
         />
 
         <Text style={{ fontSize: 20 }}>Ready To Change The Menu</Text>
-        <Button title='Enter' color="#000000ff" onPress={() => {
-          navigation.navigate("Menu", { Namesend: Name })
-        }} />
+        <Button title='Enter' color="#000000ff" onPress={handle} />
 
 
       </View>

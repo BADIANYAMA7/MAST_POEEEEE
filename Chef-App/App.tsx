@@ -6,6 +6,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Welcome from './Screens/WelcomeChef';
 import Menu from './Screens/SecondScreen';
 import { Icon } from 'react-native-screens';
+import List from './Screens/Thirdscreen';
 
 const stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -15,6 +16,7 @@ function TabNavigator() {
     <Tab.Navigator>
       <Tab.Screen name="Hello" component={Stacknavigator} options={{ headerShown: false }} />
       <Tab.Screen name="Menu" component={Menu} />
+      <Tab.Screen name="List" component={List} />
     </Tab.Navigator>
   )
 }
