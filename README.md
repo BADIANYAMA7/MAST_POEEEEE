@@ -1,6 +1,22 @@
 # ChefApp
 The Chef App is designed to make it easy for chefs to manage and update restaurant menus . When the chef logs into the app, they are taken to a home screen that displays the current menu, showing all the available dishes, prices, and categories. From this screen, the chef can view details about each meal. The app allows the chef to move to an Edit Menu screen, where they can add new dishes, remove unavailable items, or update prices and descriptions. This streamlined design helps chefs keep the menu accurate and current, ensuring that customers always see the latest offerings.
 
+## Installation
+1.Download Visiual Studio Code on Your Laptop and Node Js
+
+2. Open Vs Studio on your Laptop
+
+3. Click on Command Pallete in Setting and Clone this respository:
+
+4. Right Click on the App.tsx -> Open in intergrated Terminal -> Paste this in the terminal"npx expo start -- tunnel"
+
+5. Download Expo go On your Mobile Device
+
+6. Log in Expo go
+
+7. Scan the QR Code
+
+
 
 ## Features
 -Displays the total number of dishes in each menu category (e.g., Starters, Main Courses, Desserts, Drinks).
