@@ -34,3 +34,14 @@ Yes, once a dish is added or removed, the menu refreshes instantly to show the l
 5.Is an internet connection required to update the menu?
 No, the app hasn’t been launched live yet. For now, it’s exclusive to chefs only. However, in the near future, it will be made available to everyone once it goes live.
 Github Repositories
+
+## References
+
+Meta. (n.d.) React – The library for web and native user interfaces. Available at: < https://react.dev/  >
+ (Accessed: 22 October 2025).
+
+Meta. (n.d.) React Native Documentation – Getting Started. Available at: < https://reactnative.dev/docs/getting-started >
+ (Accessed: 22 October 2025).
+
+Microsoft. (n.d.) TypeScript Playground. Available at:< https://www.typescriptlang.org/play/ >
+ (Accessed: 22 October 2025).
