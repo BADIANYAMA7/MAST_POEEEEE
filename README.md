@@ -51,6 +51,21 @@ Yes, once a dish is added or removed, the menu refreshes instantly to show the l
 No, the app hasn’t been launched live yet. For now, it’s exclusive to chefs only. However, in the near future, it will be made available to everyone once it goes live.
 Github Repositories
 
+
+## ChangeLog
+
+1.First Screen and Second added With Picker(Picker n.d)
+
+2.thirdScreen Added
+
+3.Counting Number of Items added
+
+4.Added Price Arrays for every category
+
+5.Added TextInput For Prices
+
+6.Price Code Complete
+
 ## References
 
 Meta. (n.d.) React – The library for web and native user interfaces. Available at: < https://react.dev/  >
@@ -61,3 +76,7 @@ Meta. (n.d.) React Native Documentation – Getting Started. Available at: < htt
 
 Microsoft. (n.d.) TypeScript Playground. Available at:< https://www.typescriptlang.org/play/ >
  (Accessed: 22 October 2025).
+
+ (Picker.n.d)React Native. 2023. Picker · React Native Documentation. [online] Available at:< https://archive.reactnative.dev/docs/picker >
+ [Accessed 22 October 2025].
+ 
