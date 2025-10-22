@@ -25,10 +25,6 @@ function TabNavigator() {
           borderWidth: 1,
           borderRadius: 10,
           backgroundColor: "#43df43fe"
-
-
-
-
         }
       }}
     >
