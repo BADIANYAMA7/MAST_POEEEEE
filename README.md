@@ -6,7 +6,7 @@ The Chef App is designed to make it easy for chefs to manage and update restaura
 
 2. Open Vs Studio on your Laptop
 
-3. Click on Command Pallete in Setting and Clone this respository:
+3. Click on Command Pallete in Setting and Clone this respository:https://github.com/VCCT-MAST5112-2025-G1/MAST_POE_ST10497775
 
 4. Right Click on the App.tsx -> Open in intergrated Terminal -> Paste this in the terminal"npx expo start -- tunnel"
 
