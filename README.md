@@ -79,4 +79,10 @@ Microsoft. (n.d.) TypeScript Playground. Available at:< https://www.typescriptla
 
  (Picker.n.d)React Native. 2023. Picker · React Native Documentation. [online] Available at:< https://archive.reactnative.dev/docs/picker >
  [Accessed 22 October 2025].
- 
+
+ ## Youtube Video
+https://www.youtube.com/watch?v=PiULJcj0Bpk
+
+## Github Repo
+https://github.com/VCCT-MAST5112-2025-G1/MAST_POE_ST10497775
+
