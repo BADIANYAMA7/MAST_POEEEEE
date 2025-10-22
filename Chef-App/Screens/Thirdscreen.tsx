@@ -9,6 +9,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 export default function List({ route }: { route: any }) {
     const [Add, Setadded] = useState('')
+    const [Add2, Setadded2] = useState('')
     const Starter2 = route.params.StarterSend
     const Drinks2 = route.params.DrinksSend
     const Meals2 = route.params.MealsSend

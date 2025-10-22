@@ -7,13 +7,16 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 
 
-export default function Menu({ navigation, route }: { navigation: any, route: any }) {
+export default function Menu({ navigation }: { navigation: any }) {
     const [selectedValue, SetselectedValue] = useState('')
-    const count = {}
-    const Starter = ['samosa:R9', 'spring_rolls:R30', 'bruschetta:R40', 'stuffed_mushrooms:R20', 'deviled_eggs:R30']
-    const Drinks = ['coke:R15', 'orange_juice:R20', 'water:R5', 'lemonade:R25']
-    const Meals = ['pizza:R50', 'burger:R60', 'pasta:R40', 'salad:R30', 'sushi:R70']
-    const Deserts = ['cake:R25', 'ice_cream:R15', 'brownie:R20', 'cheesecake:R30', 'fruit_salad:R10']
+    const Starter = ['1.samosa', '2.spring_rolls', '3.bruschetta', '4.stuffed_mushrooms', '5.deviled_eggs']
+    const StarterPrice = ["1.R9", "2.R12", "3.R15", "4.R20", "5.R25"]
+    const Drinks = ['1.coke', '2.orange_juice', '3.water', '4.lemonade']
+    const DrinksPrice = ["1.R8", "2.R10", "3.R5", "4.R7"]
+    const Meals = ['1.pizza', '2.burger', '3.pasta', '4.salad', '5.sushi']
+    const MealsPrice = ["1.R50", "2.R40", "3.R45", "4.R30", "5.R60"]
+    const Deserts = ['cake', 'ice_cream', 'brownie', 'cheesecake', 'fruit_salad']
+    const DesertsPrice = ["R20", "R15", "R18", "R25", "R12"]
     return (
         <LinearGradient colors={['#12D936', '#CBFF83']}
             style={{ flex: 1 }}
@@ -34,10 +37,13 @@ export default function Menu({ navigation, route }: { navigation: any, route: an
                 </Picker>
                 <Text style={{ textAlign: 'center', fontSize: 20 }}>Descriptions</Text>
                 {selectedValue === `Starter` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{Starter.join(", ")}</Text>}
+                {selectedValue === `Starter` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{StarterPrice.join(", ")}</Text>}
                 {selectedValue === `Starter` && <Text style={{ textAlign: 'center', fontSize: 16, borderColor: 'black', borderWidth: 1, borderRadius: 5, marginBottom: 10, marginTop: 10 }}>Number of Items: {Starter.length}</Text>}
                 {selectedValue === `Drinks` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{Drinks.join(", ")}</Text>}
+                {selectedValue === `Drinks` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{DrinksPrice.join(", ")}</Text>}
                 {selectedValue === `Drinks` && <Text style={{ textAlign: 'center', fontSize: 16, borderColor: 'black', borderWidth: 1, borderRadius: 5, marginBottom: 10, marginTop: 10 }}>Number of Items: {Drinks.length}</Text>}
                 {selectedValue === `Meals` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{Meals.join(", ")}</Text>}
+                {selectedValue === `Meals` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{MealsPrice.join(", ")}</Text>}
                 {selectedValue === `Meals` && <Text style={{ textAlign: 'center', fontSize: 16, borderColor: 'black', borderWidth: 1, borderRadius: 5, marginBottom: 10, marginTop: 10 }}>Number of Items: {Meals.length}</Text>}
                 {selectedValue === `Deserts` && <Text style={{ textAlign: 'center', fontSize: 16 }}>{Deserts.join(", ")}</Text>}
                 {selectedValue === `Deserts` && <Text style={{ textAlign: 'center', fontSize: 16, borderColor: 'black', borderWidth: 1, borderRadius: 5, marginBottom: 10, marginTop: 10 }}>Number of Items: {Deserts.length}</Text>}
